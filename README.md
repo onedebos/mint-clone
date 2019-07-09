@@ -7,7 +7,7 @@ Used:
 
 # Authors
 - Adebola Adeniran  [https://github.com/onedebos/]
-- Fatima Ahmed [github.com/fatymahmed]
+- Fatima Ahmed [http://github.com/fatymahmed]
 
 
 # The Website
