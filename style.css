@@ -20,6 +20,7 @@ form{
     margin: 10px 500px; 
     height:80%;
     padding:30px;
+    border-radius: 10px;
 
 }
 
@@ -47,8 +48,6 @@ form{
 .logo-img{
 margin-top:100px;
 margin-left: 500px;
-/* margin:0 641px;
-padding:20px 0px; */
 }
 #tel{
     margin-bottom:10px;
@@ -72,6 +71,32 @@ input{
 .password-box{
     display: flex;
     flex-direction: column;
-    al
+    
 }
 
+label{
+    margin-bottom:10px;
+}
+
+.fa-lock{
+    margin-right:20px;
+    color:#fff;
+}
+
+button{
+    background-color:#0077C5;
+    border:1px solid #fff;
+    padding:15px;
+    color:#fff;
+    font-size:20px;
+    border-radius:5px;
+
+}
+
+.tos{
+    font-style: italic;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 50px;
+    font-size:10px;
+}
