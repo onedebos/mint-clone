@@ -7,39 +7,54 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="logo-img">
-      <img src="Assets/logo.png" alt="logo" />
-    </div>
-    <form>
-      <p class="title">Create an Intuit account</p>
-      <p class="one-account">
-        One account for everything Intuit, including Mint.
-      </p>
-      <a
-        href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account"
-        class="learn-more"
-        >Learn more</a
-      >
-      <label for="email">Email Address</label>
-      <input type="email" name="email" id="email" />
-      <label for="tel">Phone (recommended)</label>
-      <input type="tel" name="tel" id="tel" />
-      <p class="standard">Standard call, messaging or data rates may apply.</p>
-      <div class="password-box">
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password" />
-        <img src="Assets/lock.png" alt="lock-button" />
+    <main>
+		<section class="sign-in">
+			<div class="sign-in-text">
+					<p class="tag1">Already have an Intuit account?</p>
+					<a class="tag2" href="#">I forgot my User ID and Password</a>		
+			</div>
+			<div class="sign-in-div">
+			<button class="sign-in-btn"><i class="fas fa-lock sign-in-icon" aria-hidden="true"></i>Sign in</button>
+			</div>
+			
+		</section>
+      <div class="logo-img">
+        <img src="Assets/logo.png" alt="logo" />
       </div>
-      <button>
-        <i class="fas fa-lock" aria-hidden="true"></i>Create Account
-      </button>
-      <p class="tos">
-        By clicking Create Account, you agree to our
-        <a href="https://www.mint.com/terms"> Terms of Service</a> and have read
-        and acknowledge our
-        <a href="https://security.intuit.com/index.php/privacy">
-          Privacy Statement </a>
-      </p>
-    </form>
+      <form>
+        <p class="title">Create an Intuit account</p>
+        <p class="one-account">
+          One account for everything Intuit, including Mint.
+        </p>
+        <a
+          href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account"
+          class="learn-more"
+          >Learn more</a
+        >
+        <label for="email">Email Address</label>
+        <input type="email" name="email" id="email" />
+        <label for="tel">Phone (recommended)</label>
+        <input type="tel" name="tel" id="tel" />
+        <p class="standard">
+          Standard call, messaging or data rates may apply.
+        </p>
+        <div class="password-box">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+          <img src="Assets/lock.png" alt="lock-button" />
+        </div>
+        <button>
+          <i class="fas fa-lock" aria-hidden="true"></i>Create Account
+        </button>
+        <p class="tos">
+          By clicking Create Account, you agree to our
+          <a href="https://www.mint.com/terms"> Terms of Service</a> and have
+          read and acknowledge our
+          <a href="https://security.intuit.com/index.php/privacy">
+            Privacy Statement
+          </a>
+        </p>
+      </form>
+    </main>
   </body>
 </html>
