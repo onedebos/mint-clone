@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#ECEEF1;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#4C4C4C;
+    
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    /* align-items: center; */
+    border:1px solid #c7c7c7;
+    background-color:#fff; 
+    margin: 10px 500px; 
+    height:80%;
+    padding:30px;
+    border-radius: 10px;
+
+}
+
+.title{
+    color:#4C4C4C;
+    line-height: 1.1;
+    font-size:24px;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+  padding-bottom:10px;
+  padding-top:0;
+  margin-top: 0; 
+}
+
+.learn-more{
+    margin:0;
+    margin-bottom:30px;
+    text-align: center;
+    font-size:12px;
+}
+.one-account{
+    text-align:center;
+}
+.logo-img{
+margin-top:100px;
+margin-left: 500px;
+}
+#tel{
+    margin-bottom:10px;
+}
+
+input{
+    margin-bottom:20px;
+    border-radius:3px;
+    background-color:#fff;
+    border:1px solid #C1C5C8; 
+    flex-basis: 30px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.standard{
+    font-size:10px;
+    margin-bottom:20px;
+    margin-top:-5px;
+}
+
+.password-box{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label{
+    margin-bottom:10px;
+}
+
+.fa-lock{
+    margin-right:20px;
+    color:#fff;
+}
+
+button{
+    background-color:#0077C5;
+    border:1px solid #fff;
+    padding:15px;
+    color:#fff;
+    font-size:20px;
+    border-radius:5px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
+
+}
+
+.tos{
+    font-style: italic;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 50px;
+    font-size:10px;
+}
+
+.password-box {
+    position: relative;
+    
+  }
+  
+  .password-box img {
+    position: absolute;
+    right: 0;
+    top: 27px;
+    padding: 9px 10px;
+    color: #aaa;
+    transition: 0.3s;
+    width:20px;
+    height:20px;
+  }
