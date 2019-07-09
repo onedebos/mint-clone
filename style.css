@@ -66,6 +66,7 @@ input{
 .standard{
     font-size:10px;
     margin-bottom:20px;
+    margin-top:-5px;
 }
 
 .password-box{
@@ -90,6 +91,7 @@ button{
     color:#fff;
     font-size:20px;
     border-radius:5px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
 
 }
 
@@ -100,3 +102,19 @@ button{
     margin-top: 50px;
     font-size:10px;
 }
+
+.password-box {
+    position: relative;
+    
+  }
+  
+  .password-box img {
+    position: absolute;
+    right: 0;
+    top: 27px;
+    padding: 9px 10px;
+    color: #aaa;
+    transition: 0.3s;
+    width:20px;
+    height:20px;
+  }
