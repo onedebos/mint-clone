@@ -1,5 +1,7 @@
 # mint-clone
-This Project consists of replicating the Mint sign-up page. The emphasis is on using basic HTML and CSS to style forms
+This Project consists of replicating the Mint sign-up page. The emphasis is on using basic HTML and CSS to style forms.
+
+![](./intuit.jpg)
 
 Used:
 - HTML
